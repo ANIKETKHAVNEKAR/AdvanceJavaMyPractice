@@ -1,0 +1,36 @@
+package apps;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class TestConnection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. loading driver class in memory
+		try
+		{
+			//hidden step
+			//driver gets registered with DriverManager
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			String jdbcUrl = "jdbc:mysql://localhost:3306/test";
+			//2. Establish the connection
+			Connection con = DriverManager.getConnection(jdbcUrl, "root", "root");
+			System.out.println("connection established");
+		}
+		catch(ClassNotFoundException e)
+		{
+			System.out.println("driver class not found");
+		}
+		catch(SQLException e)
+		{
+			System.out.println("connection rejected");
+		}
+		
+		
+		
+	}
+
+}

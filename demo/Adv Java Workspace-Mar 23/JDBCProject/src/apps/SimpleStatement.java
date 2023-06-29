@@ -1,0 +1,46 @@
+package apps;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class SimpleStatement {
+
+	public static void main(String[] args) throws Exception
+	{
+		//1. loading driver class in memory
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		String jdbcUrl = "jdbc:mysql://localhost:3306/test";
+		//2. Establish the connection
+		Connection con = DriverManager.getConnection(jdbcUrl, "root", "root");
+		System.out.println("connection established");
+		
+		//3.creating the statement
+		Statement stmt = con.createStatement();
+		
+		//4.executing statement
+		ResultSet rs = stmt.executeQuery("select * from emp where deptno = 10");
+		while(rs.next())
+		{
+			System.out.print(rs.getInt(1)+" : ");
+			System.out.print(rs.getString(2)+" : ");
+			System.out.print(rs.getString(3)+" : ");
+			System.out.print(rs.getInt(4)+" : ");
+			System.out.print(rs.getInt(8)+" : ");
+			System.out.println();
+		}
+		rs.close();
+		stmt.close();
+		con.close();
+	}
+
+}
+
+
+
+
+
+
+
