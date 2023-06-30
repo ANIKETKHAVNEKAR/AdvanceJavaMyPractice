@@ -19,7 +19,7 @@ public class DMLStatement {
 			
 			stmt = con.createStatement();
 			
-			int n = stmt.executeUpdate("update emp set sal = 9999 where empno = 7934");
+			int n = stmt.executeUpdate("update emp12 set sal = 9999 where empno = 7934");
 			
 			System.out.println(n + " records updated");
 		}
