@@ -1,0 +1,54 @@
+- Download and unzip tomcat server
+1. observe lib, bin and webapps folder in tomcat root directory
+
+- Linking apache tomcat to eclipse environment
+- setting is workspace specific
+- it is applicable for all the projects in that workspace
+1. Window - preferences
+2. server - runtime environment
+3. Add - select apache tomcat v9/v10
+4. Select the installation directory which cosists of lib, bin
+   and webapps
+
+- Creating local instance of tomcat server in eclipse
+- Open Java EE perspective
+- Go to servers view
+1. Create new server
+2. Select runtime environment(auto popped up)
+3. Double click on server to open it's configuration window
+4. Select deploy path as webapps directory
+5. Save the configuration
+6. Right cleck on server and start the server
+7. check the message on the console about startup
+8. Open the browser and type the url http://localhost:8080 
+   to view the tomcat home page
+
+
+- Create web app and add the servlet
+1. File - new - dynamic web project
+2. Mention the name of the project
+3. Select target runtime of apache tomcat
+4. Check the chkbox for adding deployment descriptor
+5. Right click on src/main/java
+6. Select servlet
+7. Add the name of package, name of class
+8. Change the URL mapping(no need to add the annotation) - /WelcomeServlet
+9. Modify doGet method
+
+
+- Testing the servlet
+1. Deploy the web app using add and remove option of server
+2. Start the server
+3. Open the browser
+4. Type the proper URL - http://localhost:8080/FirstWebApp/hello
+All above steps can be automated by using the option for servlet 
+as run on server. 
+
+- Verifying deployed application in tomcat deployment directory
+1. Go to tomcat installation directory
+2. Open webapps(deplyment directory)
+3. Find the application folder
+4. Verfiy the structure of the web application deplyed
+
+
+

@@ -3,6 +3,7 @@ package apps;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 
 public class ScrollableUpdatableDemo {
@@ -19,6 +20,11 @@ public class ScrollableUpdatableDemo {
 		Statement st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE );
 		//scollable, updatable
 		ResultSet rs = st.executeQuery("select * from emp11");
+		
+		//metadata about the resultset
+		ResultSetMetaData rsmd = rs.getMetaData();
+		System.out.println("Column count : "+rsmd.getColumnCount());
+		
 		//records in reverse
 		rs.afterLast();
 		while(rs.previous())
@@ -34,6 +40,7 @@ public class ScrollableUpdatableDemo {
 		rs.updateRow();
 		System.out.println("record updated");
 
+		
 		rs.close();
 		st.close();
 		con.close();

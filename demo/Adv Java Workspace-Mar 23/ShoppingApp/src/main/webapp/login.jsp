@@ -7,7 +7,20 @@
 <title>Insert title here</title>
 </head>
 <body>
-	 <form action="http://localhost:8080/FirstWeb/logincheck" method="post">
+    <%-- <%
+    	Cookie [] allc = request.getCookies();
+    	if(allc != null)
+    	{
+    		for(Cookie c: allc)
+    		{
+    			if(c.getName().equals("loginerror"))
+    				out.println("<p> "+ c.getValue() + " </p>");
+    		}
+    	}
+    %> --%>
+    
+    ${cookie.loginerror.value}
+	<form action="http://localhost:8080/ShoppingApp/logincheck" method="post">
 		Enter uid : <input type="text" name="uid" /> 
 		<br/>
 		Enter pwd : <input type="password" name="pwd" />
@@ -15,6 +28,8 @@
 		<input type="submit" value="LOGIN" />
 		<input type="reset" value="CLEAR" /> 
 	</form>
-
+	
+	<br/>
+	<a href="http://localhost:8080/ShoppingApp/register.html"> New User, Register here </a>
 </body>
 </html>

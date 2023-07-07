@@ -1,0 +1,28 @@
+package apps;
+
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.DriverManager;
+
+public class ConMetaInformation {
+
+	public static void main(String[] args) throws Exception
+	{
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		String jdbcUrl = "jdbc:mysql://localhost:3306/test";
+		//2. Establish the connection
+		Connection con = DriverManager.getConnection(jdbcUrl, "root", "root");
+		System.out.println("connection established");
+		
+		System.out.println("Commit mode :"+con.getAutoCommit());
+		DatabaseMetaData dbmd = con.getMetaData();
+		System.out.println("Major version of db : "+dbmd.getDatabaseMajorVersion());
+		System.out.println(" version of driver : "+dbmd.getDriverMajorVersion());
+		System.out.println("serializable level : "+dbmd.supportsTransactionIsolationLevel(8));
+		
+		
+
+	}
+
+}

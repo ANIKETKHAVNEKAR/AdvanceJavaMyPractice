@@ -9,28 +9,24 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-   <context-param>
+  
+  <context-param>
   	<param-name>diverclass</param-name>
   	<param-value>com.mysql.cj.jdbc.Driver</param-value>
   </context-param>
+  
   <context-param>
-	  <param-name>url</param-name>
-	  <param-value>jdbc:mysql://localhost:3306/shoppingdb</param-value>
-  </context-param>
-  <context-param>
-	  <param-name>user</param-name> 
-  		<param-value>root</param-value>
-  </context-param>
-  <context-param> 
-	  <param-name>password</param-name> 
-	  <param-value>siddhi11</param-value>
+  	<param-name>jdbcurl</param-name>
+  	<param-value>jdbc:mysql://localhost:3306/shoppingdb</param-value>
   </context-param>
   
+  <context-param>
+  	<param-name>user</param-name>
+  	<param-value>root</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>password</param-name>
+  	<param-value>root</param-value>
+  </context-param>
 </web-app>
-
-		<!--
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			String jdbcUrl = "jdbc:mysql://localhost:3306/shoppingdb";
-			con = DriverManager.getConnection(jdbcUrl, "root", "siddhi11");
-			System.out.println("Established Connection");
-			-->

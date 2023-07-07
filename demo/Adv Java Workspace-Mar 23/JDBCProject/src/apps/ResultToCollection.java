@@ -26,8 +26,7 @@ public class ResultToCollection {
 		Set<Emp> emps = new TreeSet<>();
 		while(rs.next())
 		{
-			Emp e = new Emp(rs.getInt(1),rs.getString(2),rs.getString(3),
-                            rs.getFloat(6),rs.getInt(8));
+			Emp e = new Emp(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getFloat(6),rs.getInt(8));
 			emps.add(e);
 		}
 		
