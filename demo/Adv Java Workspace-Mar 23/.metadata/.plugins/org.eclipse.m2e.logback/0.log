@@ -2,3 +2,241 @@
 2023-06-20 22:12:35,835 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-06-21 06:04:23,948 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-06-21 10:03:30,865 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-22 05:40:41,542 [Worker-170: Creating project "ConsoleMaven"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:ConsoleMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\ConsoleMaven\pom.xml.
+2023-06-22 05:40:43,865 [Worker-170: Creating project "ConsoleMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ConsoleMaven/src/main/java
+2023-06-22 05:40:43,866 [Worker-170: Creating project "ConsoleMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConsoleMaven/src/main/resources
+2023-06-22 05:40:43,883 [Worker-170: Creating project "ConsoleMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ConsoleMaven/src/test/java
+2023-06-22 05:40:43,883 [Worker-170: Creating project "ConsoleMaven"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConsoleMaven/src/test/resources
+2023-06-22 05:40:45,062 [Worker-173: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:40:45,221 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:40:45,226 [Worker-173: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:40:45,239 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:47:33,768 [Worker-178: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:ConsoleMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\ConsoleMaven\pom.xml.
+2023-06-22 05:47:34,114 [Worker-178: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:47:34,141 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:47:34,144 [Worker-178: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:47:34,152 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:50:32,481 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:50:32,744 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:50:32,748 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:50:32,755 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:50:52,633 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:50:52,647 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:50:52,650 [Worker-180: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:50:52,658 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:52:28,880 [Worker-173: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:52:28,890 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:52:28,893 [Worker-173: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-22 05:52:28,900 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-22 05:55:23,442 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom
+2023-06-22 05:55:23,475 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom
+2023-06-22 05:56:23,985 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [607])
+2023-06-22 05:56:24,043 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-06-22 05:56:24,043 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-06-22 05:56:24,044 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-06-22 05:56:24,045 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-06-22 05:56:24,046 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-06-22 05:56:24,047 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-06-22 05:56:24,048 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-06-22 05:56:24,048 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-06-22 05:56:24,048 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-06-22 05:56:24,049 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-06-22 05:56:24,049 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-06-22 05:56:24,050 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [921])
+2023-06-22 05:56:24,248 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-06-22 05:56:24,249 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-06-22 05:56:24,705 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-06-22 05:56:24,705 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-06-22 05:56:25,029 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-06-22 05:56:25,029 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-06-22 05:56:25,048 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-06-22 05:56:25,048 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-06-22 05:56:25,108 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\administrator\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-06-22 05:56:25,144 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ADMINI~1\AppData\Local\Temp\m2e-archetypeGenerator398697927581512923":
+2023-06-22 05:56:25,145 [Worker-182: Launching mavenrun-768fd20f-486a-428a-a10e-ea0a578a1be1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4 -DgroupId=com.knowit -DartifactId=WebMaven -Dversion=0.0.1-SNAPSHOT -Dpackage=com.knowit.WebMaven -DoutputDirectory="D:\Adv Java Workspace-Mar 23" -Dstyle.color=always -U archetype:generate
+2023-06-22 05:58:06,081 [Worker-185: Launching mavenrun-05a41c6b-3609-4995-9c90-2ff54cb30402] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ADMINI~1\AppData\Local\Temp\m2e-archetypeGenerator1339520946587571003":
+2023-06-22 05:58:06,081 [Worker-185: Launching mavenrun-05a41c6b-3609-4995-9c90-2ff54cb30402] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4 -DgroupId=com.knowit -DartifactId=WebMaven -Dversion=0.0.1-SNAPSHOT -Dpackage=com.knowit.WebMaven -DoutputDirectory="D:\Adv Java Workspace-Mar 23" -B -Dstyle.color=always -U archetype:generate
+2023-06-22 05:58:12,533 [Worker-186: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Adv Java Workspace-Mar 23\WebMaven\pom.xml
+2023-06-22 05:58:15,828 [Worker-186: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:WebMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\WebMaven\pom.xml.
+2023-06-22 05:58:18,878 [Worker-186: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebMaven/src/main/java
+2023-06-22 05:58:18,878 [Worker-186: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebMaven/src/test/java
+2023-06-22 05:58:20,441 [Worker-186: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2023-06-22 05:58:21,006 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 05:58:21,007 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 05:58:21,012 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 05:58:21,012 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 05:59:20,719 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 05:59:20,719 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 05:59:20,721 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 05:59:20,721 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:01:50,717 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:01:50,717 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:01:50,721 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:01:50,722 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:03:38,950 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:03:38,951 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:03:38,954 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:03:38,955 [Worker-186: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:04:14,297 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:04:14,298 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:04:14,301 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:04:14,301 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:05:17,704 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:05:17,704 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:05:17,708 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:05:17,708 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:06:26,681 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:06:26,681 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:06:26,685 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:06:26,685 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:07:30,153 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:07:30,153 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:07:30,158 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:07:30,158 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:09:26,985 [Worker-189: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:WebMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\WebMaven\pom.xml.
+2023-06-22 06:09:27,009 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.servlet.jsp.jstl:jstl:jar:1.2 is missing, no dependency information available
+2023-06-22 06:09:27,487 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:09:27,487 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:09:27,493 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:09:27,494 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:09:27,494 [Worker-189: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of WebMaven
+2023-06-22 06:09:27,495 [Worker-189: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for WebMaven
+2023-06-22 06:10:18,769 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-22 06:10:19,062 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:WebMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\WebMaven\pom.xml.
+2023-06-22 06:10:19,066 [Worker-183: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.servlet.jsp.jstl:jstl:jar:1.2 is missing, no dependency information available
+2023-06-22 06:10:19,564 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebMaven/src/main/java
+2023-06-22 06:10:19,565 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebMaven/src/test/java
+2023-06-22 06:10:19,911 [Worker-183: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for WebMaven
+2023-06-22 06:10:20,062 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-06-22 06:10:20,187 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:10:20,187 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:10:20,189 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:10:20,190 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:10:20,190 [Worker-183: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of WebMaven
+2023-06-22 06:10:20,190 [Worker-183: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for WebMaven
+2023-06-22 06:11:03,750 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-22 06:11:04,054 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:WebMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\WebMaven\pom.xml.
+2023-06-22 06:11:04,117 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.pom
+2023-06-22 06:11:04,124 [Worker-183: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for javax.servlet.jsp.jstl:jstl:jar:1.2 is missing, no dependency information available
+2023-06-22 06:11:04,147 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar
+2023-06-22 06:11:04,493 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebMaven/src/main/java
+2023-06-22 06:11:04,494 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebMaven/src/test/java
+2023-06-22 06:11:04,646 [Worker-183: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for WebMaven
+2023-06-22 06:11:04,652 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-06-22 06:11:04,788 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:11:04,788 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:11:04,791 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:11:04,791 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:11:04,792 [Worker-187: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of WebMaven
+2023-06-22 06:11:04,792 [Worker-187: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for WebMaven
+2023-06-22 06:11:56,075 [Worker-183: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.knowit:WebMaven:0.0.1-SNAPSHOT @ D:\Adv Java Workspace-Mar 23\WebMaven\pom.xml.
+2023-06-22 06:11:56,459 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:11:56,459 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:11:56,462 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:11:56,462 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:11:56,462 [Worker-183: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of WebMaven
+2023-06-22 06:11:56,462 [Worker-183: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for WebMaven
+2023-06-22 06:15:39,388 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:15:39,388 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:15:39,391 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:15:39,391 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:17:28,956 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:17:28,956 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:17:28,959 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:17:28,959 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:19:49,397 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:19:49,398 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:19:49,400 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:19:49,401 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:19:55,202 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:19:55,202 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:19:55,205 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:19:55,205 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:21:18,721 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:21:18,721 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:21:18,724 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:21:18,724 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:22:12,250 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:22:12,250 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:22:12,253 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:22:12,253 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:22:35,149 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:22:35,149 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:22:35,153 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:22:35,154 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:22:43,134 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:22:43,135 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:22:43,138 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:22:43,138 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:23:11,125 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:23:11,125 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:23:11,128 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:23:11,128 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:23:54,399 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:23:54,399 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:23:54,402 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:23:54,402 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:24:01,245 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:24:01,246 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:24:01,249 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:24:01,249 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:24:24,039 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:24:24,040 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:24:24,043 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:24:24,043 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:24:54,840 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:24:54,840 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:24:54,843 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:24:54,843 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:25:38,010 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:25:38,010 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:25:38,013 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:25:38,013 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:26:24,340 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:26:24,340 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:26:24,344 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:26:24,345 [Worker-192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:27:43,471 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:27:43,471 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:27:43,474 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:27:43,474 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:28:20,971 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:28:20,972 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:28:20,974 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:28:20,976 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:29:09,402 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:29:09,402 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:29:09,405 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:29:09,405 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources
+2023-06-22 06:29:31,711 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:29:31,711 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\main\resources
+2023-06-22 06:29:31,714 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-22 06:29:31,715 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Adv Java Workspace-Mar 23\WebMaven\src\test\resources

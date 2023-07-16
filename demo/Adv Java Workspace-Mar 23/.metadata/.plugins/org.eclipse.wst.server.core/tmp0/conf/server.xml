@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\ROOT" path="" reloadable="false"/><Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\ConfigContextParams" path="/ConfigContextParams" reloadable="true" source="org.eclipse.jst.jee.server:ConfigContextParams"/><Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\FirstWeb" path="/FirstWeb" reloadable="true" source="org.eclipse.jst.jee.server:FirstWeb"/><Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\ShoppingApp" path="/ShoppingApp" reloadable="true" source="org.eclipse.jst.jee.server:ShoppingApp"/><Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\StateMgmt" path="/StateMgmt" reloadable="true" source="org.eclipse.jst.jee.server:StateMgmt"/></Host>
+      <Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\ROOT" path="" reloadable="false"/><Context docBase="D:\apache-tomcat-9.0.65\apache-tomcat-9.0.65\webapps\WebMaven" path="/WebMaven" reloadable="true" source="org.eclipse.jst.j2ee.server:WebMaven"/></Host>
     </Engine>
   </Service>
 </Server>

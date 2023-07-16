@@ -1,0 +1,24 @@
+package entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="orders")
+public class OrderItem {
+
+	int oiid;
+	
+	int pid;
+	
+	int qty;
+	
+	//property mapped with FK column
+	//datatype - master entity
+	Order order;
+	
+	
+	
+	
+	
+}

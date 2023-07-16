@@ -1,0 +1,71 @@
+1- Create a CriteriaBuilder instance by calling the Session.getCriteriaBuilder() method.
+CriteriaBuilder builder = session.getCriteriaBuilder();
+
+2 - Create a query object by creating an instance of the CriteriaQuery interface.
+CriteriaQuery<T> query = builder.createQuery(T.class);
+
+3 - Set the query Root by calling the from() method on the CriteriaQuery object to define a range variable in FROM clause.
+Root<T> root = query.from(T.class);
+
+4 - Specify what the type of the query result will be by calling the select() method of the CriteriaQuery object.
+query.select(root);
+
+5 - Prepare the query for execution by creating a org.hibernate.query.Query instance by calling the Session.createQuery() method, specifying the type of the query result.
+Query<T> q = session.createQuery(query);
+
+6 - Execute the query by calling the getResultList() or getSingleResult() method on the org.hibernate.query.Query object.
+List<T> list = q.getResultList();
+
+
+query.select(root);
+Query<Employee> q=session.createQuery(query);
+
+
+query.select(root).where(builder.equal(root.get("id"), 1l));
+Query<Department> q=session.createQuery(query);
+
+
+query.select(root.get("name"));
+Query<String> q=session.createQuery(query);
+
+
+query.multiselect(root.get("name"),root.get("designation"));
+Query<Object[]> q=session.createQuery(query);
+
+
+criteriaQuery.select(builder.count(root));
+Query<Long> query = session.createQuery(criteriaQuery);
+
+
+criteriaQuery2.select(builder.max(root2.get("salary")));
+Query<Integer> query2 = session.createQuery(criteriaQuery2);
+
+
+criteriaQuery4.select(builder.countDistinct(root4));
+Query<Long> query4 = session.createQuery(criteriaQuery4);
+
+
+criteriaQuery.multiselect(empRoot, deptRoot);
+criteriaQuery.where(builder.equal(empRoot.get("department"), deptRoot.get("id")));
+Query<Object[]> query=session.createQuery(criteriaQuery);
+List<Object[]> list=query.getResultList();
+
+
+
+criteriaQuery.multiselect(builder.count(root.get("name")), root.get("salary"),
+               root.get("department"));
+criteriaQuery.groupBy(root.get("salary"), root.get("department"));
+criteriaQuery.having(builder.greaterThan(root.get("salary"), 30000));
+Query<Object[]> query = session.createQuery(criteriaQuery);
+List<Object[]> list = query.getResultList();
+
+
+
+criteriaQuery.select(root);
+criteriaQuery.orderBy(builder.asc(root.get("salary")));
+Query<Employee> query = session.createQuery(criteriaQuery);
+List<Employee> list = query.getResultList();
+
+
+
+

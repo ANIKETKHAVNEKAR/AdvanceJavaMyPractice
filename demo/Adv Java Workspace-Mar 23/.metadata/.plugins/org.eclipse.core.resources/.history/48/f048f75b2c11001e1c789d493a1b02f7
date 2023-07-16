@@ -1,0 +1,17 @@
+package dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+public class EmpDAO {
+
+	@Autowired
+	HibernateTemplate template;
+	
+	public List<Emp> getAll()
+	{
+		template.loadAll(Emp.class);
+	}
+	
+	
+}

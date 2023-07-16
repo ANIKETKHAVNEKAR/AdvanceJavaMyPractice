@@ -1,0 +1,16 @@
+package entities;
+
+public class OrderItem {
+
+	int oiid;
+	
+	int pid;
+	
+	int qty;
+	
+	//property mapped with FK column
+	Order order;
+	
+	
+	
+}

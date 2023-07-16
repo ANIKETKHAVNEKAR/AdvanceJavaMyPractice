@@ -1,0 +1,67 @@
+Table per hierarchy
+
+@Entity  
+@Table(name = "employee101")  
+@Inheritance(strategy=InheritanceType.SINGLE_TABLE)  
+@DiscriminatorColumn(name="type",discriminatorType=DiscriminatorType.STRING)  
+@DiscriminatorValue(value="employee")  
+public class Employee {  
+
+}
+
+@Entity  
+@DiscriminatorValue("regularemployee")  
+//only mention additional columns
+public class Regular_Employee extends Employee{  }  
+
+@Entity  
+@DiscriminatorValue("contractemployee")  
+ //only mention additional columns
+public class Contract_Employee extends Employee{  }   //only mention additional columns
+
+
+Table per concrete class
+
+
+@Entity  
+@Table(name = "employee102")  
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)  
+public class Employee {   }
+
+
+@Entity  
+@Table(name="regularemployee102")  
+@AttributeOverrides({  
+    @AttributeOverride(name="id", column=@Column(name="id")),  
+    @AttributeOverride(name="name", column=@Column(name="name"))  
+})  
+public class Regular_Employee extends Employee{  }    //only mention additional columns
+
+
+@Entity  
+@Table(name="contractemployee102")  
+@AttributeOverrides({  
+    @AttributeOverride(name="id", column=@Column(name="id")),  
+    @AttributeOverride(name="name", column=@Column(name="name"))  
+})  
+public class Contract_Employee extends Employee{   }     //only mention additional columns
+
+
+
+Table per subclass
+
+@Entity  
+@Table(name = "employee103")  
+@Inheritance(strategy=InheritanceType.JOINED)  
+public class Employee {    }
+
+@Entity  
+@Table(name="regularemployee103")  
+@PrimaryKeyJoinColumn(name="ID")  
+public class Regular_Employee extends Employee{  }
+
+
+@Entity  
+@Table(name="regularemployee103")  
+@PrimaryKeyJoinColumn(name="ID")  
+public class Regular_Employee extends Employee{  }

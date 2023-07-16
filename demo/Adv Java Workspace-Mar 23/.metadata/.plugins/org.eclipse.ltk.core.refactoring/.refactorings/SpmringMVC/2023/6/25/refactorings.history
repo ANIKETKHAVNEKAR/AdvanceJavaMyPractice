@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpmringMVC/src/main/webapp/WEB-INF/appContext.xml&apos; to &apos;frontcontroller-servlet.xml&apos;" description="Rename resource &apos;appContext.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/appContext.xml" name="frontcontroller-servlet.xml" stamp="1687450992458" updateReferences="true"/>
+</session>

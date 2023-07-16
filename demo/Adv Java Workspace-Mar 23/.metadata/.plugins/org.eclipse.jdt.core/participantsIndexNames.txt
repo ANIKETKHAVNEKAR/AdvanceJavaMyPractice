@@ -1,3 +1,9 @@
 INDEX VERSION 1.132
+D:\Adv Java Workspace-Mar 23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3020733674.index
+\JspProject\src\main\java
+D:\Adv Java Workspace-Mar 23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\151306.index
+\ScriptlessJSP\src\main\java
 D:\Adv Java Workspace-Mar 23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\743707557.index
 \ShoppingApp\src\main\java
+D:\Adv Java Workspace-Mar 23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2421567988.index
+\BlogginApp\src\main\java

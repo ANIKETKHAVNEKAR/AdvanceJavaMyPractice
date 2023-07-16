@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	Request parameter : ${param.nm} 
+	<br/>
+	Request header : ${header.host}
+	<br/>
+	Request header : ${header["user-agent"] }
+	<br/>
+	Cookie info : ${cookie.emailcookie.value }
+	<br/>
+	Context parameter : ${initParam.adminemail}
+	<br/>
+	Location bean : ${requestScope.locations["0"] }
+	                ${requestScope.locations["1"] }
+	                ${requestScope.locations["2"] } 
+</body>
+</html>
+
+

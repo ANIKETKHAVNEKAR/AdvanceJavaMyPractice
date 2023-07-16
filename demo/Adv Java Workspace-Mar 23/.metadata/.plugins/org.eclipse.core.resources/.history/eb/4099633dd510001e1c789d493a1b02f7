@@ -1,0 +1,8 @@
+package entities;
+
+public class Order {
+
+	int oid;
+	
+	String cname;
+}

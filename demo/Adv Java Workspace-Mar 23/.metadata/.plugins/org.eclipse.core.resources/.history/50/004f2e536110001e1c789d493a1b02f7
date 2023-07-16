@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		Enter name : <input type="text" name="nm" />
+		<br/>
+		Select cities : 
+		<select name="city" >
+			<option value="pune">Pune</option>
+			<option>Mumbai</option>
+			<option>Nagpur</option>
+			<option>Chennai</option>
+			<option>Bangalore</option>
+		</select>
+	</form>
+</body>
+</html>

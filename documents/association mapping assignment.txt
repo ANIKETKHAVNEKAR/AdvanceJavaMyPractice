@@ -1,0 +1,5 @@
+Create Subject class with properties subjectid, name and desc. Create Question class with properties qid, text, opt1, opt2, opt3, opt4, answer and information about subjectid. Use above classes and maintain one to many and many to one association mapping as required.
+1. Save Subject instance
+2. Use this Subject for creating Question and then save it.
+3. Create new subject with 2 questions as child entiies and save it together.
+4. Fetch information about all Questions and display subject name with all the questions.	

@@ -1,4 +1,4 @@
-+package logic;
+package logic;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -36,7 +36,7 @@ public class AddToCartServlet extends HttpServlet {
 		out.print("<br/>selected product "+spid+" is added in the cart");
 		out.print("<br/>There are "+ products.size()+" item(s) in the cart");
 		
-		out.print("<br/> <a href='viewcart'> View Cart <a/>");
+		out.print("<br/> <a href='viewcart.jsp'> View Cart <a/>");
 		out.print("<br/> <a href='home'> Go back to Categories <a/>");
  		
 	}
